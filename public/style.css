@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+*{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif, Arial;
+  background-color: #e2e1e0;
+}
+
+.container {
+  width: 1170px;
+  margin: auto;
+}
+
+#main-doc {
+  padding: 0px 50px 50px 50px;
+  margin: 30px 0 30px 0;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.title {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: #6d6d6d;
+    border-bottom: solid 1px;
+    border-color: #d8d8d8a8;
+    line-height: 30px;
+    padding-top: 80px;
+    color: #6f42c1;
+    margin-bottom: 30px;
+}
+.desc {
+    font-size: 17px;
+    margin: 20px 0px 20px 0;
+}
+ li {
+    margin: 20px 0px 0px 30px;
+}
+.main-section h3{
+    margin: 30px 0 0 0;
+}
+code {
+    display: block;
+    text-align: left;
+    white-space: pre;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: auto;
+}
+.border {
+    padding: 20px;
+    border: 1px solid #6f42c1;
+    max-width: 500px;
+    text-align: center;
+    margin: 20px;
+}
+.border input {
+    padding: 6px;
+    width: 60%;
+    margin: 10px 20px 10px 20px;
+}
+.border textarea {
+  padding: 6px;
+    width: 60%;
+    margin: 10px 20px 10px 20px;
+}
+.user_input {
+    padding: 6px;
+    width: 60%;
+    margin: 10px 20px 10px 20px;
+}
+.button_submit {
+    background-color: #6f42c1;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+.button_submit:hover {
+    background-color: #351376; 
+}
+.button_report {
+  background-color: #e8e011;
+  border: none;
+  color: rgb(40, 40, 40);
+  padding: 8px 20px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+.button_report:hover {
+  background-color: #c1ac14; 
+}
+.the-guy {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 20px 0px;
+}
+.the-guy a {
+    text-decoration: none;
+}
+hr {
+    margin: 30px 0 30px 0;
+    border-top: #d8d8d8a8;
+}
+
+
+.issue {
+  margin: 20px auto auto auto;
+  padding: 5px;
+  width: 60%;
+  border: 2px solid rgb(30, 177, 0);
+}
+#issueDisplay {
+  text-align: center;
+}
+
+
+.closed {
+  background-color: #f3f3f3;
+  border: 2px solid rgb(177, 0, 0);
+}
+
+.id {
+  font-size: 10.5px;
+}
+
+
+form {
+  padding: 5px;
+}
+.btn-danger {
+  background-color: #c22f2f;
+  color: white;
+  width: 77px;
+}
+.btn-danger:hover {
+  background-color: #8a2222;
+}
+.listWrapper li {
+  border: 1px solid #dddddd;
+  padding: 20px;
+}
+.listWrapper li:nth-child(even){
+  background-color: #f9f9f9;
+}
+#detailComments li {
+  border: 1px solid #dddddd;
+  padding: 20px;
+}
+#detailComments li:nth-child(even){
+  background-color: #f9f9f9;
+}
+
+
+
+
+.replies {
+  margin: 20px 20px 20px 20px;
+}
+
+.reply {
+  border: 1px solid #c1c1c1;
+  margin: 10px;
+  padding: 10px;
+}
+.reply_report{
+  display: flex;
+  align-items: center;
+}
+#reportReply {
+  margin: 0 0 0 20px;
+}
+#reportReply .button_report{
+  padding: 4px 10px;
+}
+#deleteReply{
+  text-align: right;
+}
+#deleteReply input {
+  padding: 3px;
+  margin: 0px 0px 0px 10px;
+}
+#deleteReply .btn-danger {
+  width: 60px;
+}
+
+
+.newReply {
+  margin: 10px 5px 10px 5px;
+}
+
+.thread {
+  border: 1px solid #6f3cc4;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fbfbfb;
+}
+#deleteThread {
+  text-align: right;
+}
+#deleteThread input {
+  padding: 6px;
+  margin: 0px 0px 0px 20px;
+}
+.thread_title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  color: #6d6d6d;
+  border-bottom: solid 1px;
+  border-color: #d8d8d8a8;
+  line-height: 40px;
+  color: #6f42c1;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.id {
+  font-size: 10.5px;
+}
+
+#submitNewThread {
+  margin: 50px;
+}
+#newReply input{
+  padding: 6px;
+  margin: 10px 10px 0px 0px;
+}
+#newReply .button_submit {
+  width: 80px;
+}
+.MainDeleteThread {
+  text-align: center !important;
+}
+.MainDeleteThread input{
+  margin: 10px 20px 10px 20px !important;
+}
+
